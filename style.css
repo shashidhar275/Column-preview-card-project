@@ -1,0 +1,117 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.part-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.part-name{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.part-information{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin-bottom: 80px;
+    line-height: 1.5;
+}
+
+.btn{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 13px 25px;
+    border-radius: 20px;
+}
+
+.parts{
+    padding: 50px;
+}
+
+.part-1{
+    flex-basis: 230px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.part-2{
+    flex-basis: 230px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.part-3{
+    flex-basis: 230px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
+
+@media (width<950px ) and (width>375px)
+{
+    .part-container{
+        flex-direction: column;
+        height: 220vh;
+        width: 85vw;
+        margin-left: 5vw;
+    }
+
+    .part-name{
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    .part-information{
+        max-width: 84%;
+        font-size: 16px;
+        margin-bottom: 60px;
+        line-height: 1.7;
+    }
+
+    .btn{
+        padding: 15px 45px;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    
+    .parts{
+        padding: 50px 20px 40px 50px;
+    }
+    .part-1{
+        flex-basis: 1300px;
+        border-radius: 10px 10px 0 0 ;
+        margin-top: 80px;
+    }
+    
+    .part-2{
+        flex-basis: 1300px;
+    }
+    
+    .part-3{
+        flex-basis: 1300px;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 80px;
+    }
+
+}
+
+
+
