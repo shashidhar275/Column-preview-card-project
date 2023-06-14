@@ -65,7 +65,7 @@
     color: hsl(179, 100%, 13%);
 }
 
-@media (width<950px ) and (width>375px)
+@media (max-width: 950px)
 {
     .part-container{
         flex-direction: column;
